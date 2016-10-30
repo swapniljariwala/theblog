@@ -16,9 +16,15 @@ DEFAULT_LANG = u'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+#DISPLAY_CATEGORIES_ON_MENU = False
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
+DEFAULT_DATE = 'fs'
+OUTPUT_RETENTION = [".git"]
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['articles']
+THEME = '/home/jerry/py/blog/pelicanthemes/pelican-bootstrap3'
+#USE_FOLDER_AS_CATEGORY = True
 # Blogroll
 #LINKS = ('swapniljariwala.github.io')
 
